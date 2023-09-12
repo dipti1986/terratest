@@ -1,0 +1,4 @@
+docker run -it -v %cd%:/go/src/app/hello-world terratest:0.0.1 bash
+
+
+go mode init && go mod tidy && go test -v
